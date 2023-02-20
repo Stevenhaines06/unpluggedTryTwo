@@ -236,15 +236,23 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* background-color: #527158; */
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
+
 
 footer .copyright {
   margin: 20px 0;
@@ -654,6 +662,9 @@ input[type=button] {
     width: 62%;
   }
 
+  .features i {
+    margin-bottom: 10px;
+  }
 
   /* Reviews */
   .reviews article {
@@ -692,10 +703,31 @@ input[type=button] {
     margin-bottom: 0;
   }
 
+  
   footer h4 {
     font-size: 1.5em;
     margin-bottom: 40px;
   }
+
+  footer .social-icons p {
+    background-color: #527158;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .social-icons p i {
+    font-size: 2em;
+  }
+  
+  footer .social-icons {
+    width: 15.5em;
+    justify-content: space-between;
+  }
+  
 
   footer p {
     line-height: 1.285;
@@ -826,6 +858,8 @@ input[type=button] {
   .reviews article div {
     width: 42%;
   }
+
+ 
 
   footer h4 {
     font-size: 1.875em;
